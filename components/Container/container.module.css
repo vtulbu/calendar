@@ -1,0 +1,12 @@
+.background {
+  background-color: #5da0e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.childrenBox {
+  background-color: aliceblue;
+  height: 400px;
+}
