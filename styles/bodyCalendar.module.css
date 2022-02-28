@@ -1,0 +1,65 @@
+.calendar {
+  width: 100% !important;
+  border: none !important;
+  background-color: aliceblue !important;
+  margin-bottom: 20px;
+}
+
+.calendar > div > div > div > div:first-child {
+  color: gray;
+}
+
+.calendar > div > div > div > div > div:first-child > div abbr {
+  text-decoration: none;
+  color: gray;
+}
+
+.calendar
+  > div
+  > div
+  > div
+  > div
+  > div
+  > button[class*="react-calendar__tile--now"] {
+  background-color: rgb(255, 243, 80);
+}
+
+.calendar
+  > div
+  > div
+  > div
+  > div
+  > div
+  > button[class*="react-calendar__tile--now"]:hover {
+  background-color: rgba(250, 244, 167, 0.897);
+}
+
+.calendar
+  > div
+  > div
+  > div
+  > div
+  > div
+  > button[class*="react-calendar__tile--active"] {
+  background-color: rgb(0, 49, 209);
+}
+
+.calendar
+  > div
+  > div
+  > div
+  > div
+  > div
+  > button[class*="react-calendar__tile--active"]:hover {
+  background-color: rgb(53, 89, 206);
+}
+
+.calendar
+  > div
+  > div
+  > div
+  > div
+  > div
+  > button[class*="react-calendar__tile--active"]:focus {
+  background-color: rgb(53, 89, 206);
+}

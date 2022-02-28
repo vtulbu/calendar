@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styles from "./container.module.css";
+import styles from "../../styles/container.module.css";
 
 interface PropsContainer {
   children: JSX.Element[];

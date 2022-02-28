@@ -1,10 +1,15 @@
-import styles from "./head.module.css";
+import styles from "../../styles/head.module.css";
 
-const HeadCalendar = () => {
+interface PropsHead {
+  day: string;
+  monthYear: string;
+}
+
+const HeadCalendar = ({ day, monthYear }: PropsHead) => {
   return (
     <div className={styles.headContainer}>
-      <p>Thursday 7th</p>
-      <p>Janury 2016</p>
+      <p className={styles.paragraphe}>{day}</p>
+      <p className={styles.paragraphe}> {monthYear}</p>
     </div>
   );
 };
